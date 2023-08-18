@@ -27,3 +27,8 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.album-artwork {
+    width: 200px;
+    height: 200px;
+}
