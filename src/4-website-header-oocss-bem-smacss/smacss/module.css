@@ -1,0 +1,21 @@
+/* Module-specific styles */
+.nav__item {
+    margin-right: 10px;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.home{
+    font-weight: bold;
+}
+
+.about {
+    font-style: italic;
+}
+
+.services {
+    text-transform: uppercase;
+}

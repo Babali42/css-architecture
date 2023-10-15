@@ -1,0 +1,57 @@
+<header class="header">
+    <nav class="header__nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link nav__link--home">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link--about">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link nav__link--services">Services</a></li>
+        </ul>
+    </nav>
+</header>
+<style>
+    /* Block (header) */
+    .header {
+        background-color: #333;
+        padding: 20px;
+    }
+
+    /* Block (nav) */
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Block (nav) */
+    .nav__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    /* Block (nav) */
+    .nav__item {
+        margin-right: 10px;
+    }
+
+    /* Element (link) */
+    .nav__link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* Modifier (home) */
+    .nav__link--home {
+        font-weight: bold;
+    }
+
+    /* Modifier (about) */
+    .nav__link--about {
+        font-style: italic;
+    }
+
+    /* Modifier (services) */
+    .nav__link--services {
+        text-transform: uppercase;
+    }
+</style>
